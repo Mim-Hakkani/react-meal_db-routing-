@@ -23,12 +23,10 @@ function App() {
                 <NavLink to="/gallery">Gallery</NavLink></ul>
 
                   <Switch>
-                      <Route exact path="/">
-                         <Home></Home>
-                      </Route> 
+                     
 
                       <Route exact path="/home">
-                      <Restudent></Restudent>
+                         <Restudent></Restudent>
                       </Route> 
 
                       <Route exact path="/about">
