@@ -28,7 +28,7 @@ function App() {
                       </Route> 
 
                       <Route exact path="/home">
-                         <Home></Home>
+                      <Restudent></Restudent>
                       </Route> 
 
                       <Route exact path="/about">
@@ -44,7 +44,7 @@ function App() {
                       </Route>
 
                       <Route exact path="*">
-                        <Notfound></Notfound>
+                        <Home></Home>
                       </Route> 
                   </Switch>
               
